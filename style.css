@@ -1,0 +1,173 @@
+body {
+    margin: 20px 50px;
+    color: #f5f5f2;
+    background-color: #778da9;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+/*common style for div border & links(<a>) */
+.section-box-shadow {
+    border-radius: 12px;
+}
+
+.section-box-shadow:hover {
+    box-shadow: 0px 0px 10px #f5f5f2;
+}
+
+a {
+    color: #f5f5f2;
+    text-decoration: none;
+}
+
+#resume-button {
+    color: #f5f5f2;
+    background: #5c7490;
+    border: 3px solid #f5f5f2;
+    font-weight: 700;
+    padding: 7px 12px;
+    box-shadow: 0px 0px 15px #f5f5f2;
+}
+
+#resume-button:hover {
+    color: #5c7490;
+    background-color: #f5f5f2;
+    border: 3px solid #5c7490;
+}
+
+/* Name & Skills section */
+#title-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name-and-buttons h1 {
+    margin: 0px;
+    font-size: 45px;
+}
+
+.name-and-buttons h2 {
+    margin: 10px 0px;
+    color: #f5f5f2;
+}
+
+.name-and-buttons p {
+    margin: 0px;
+    color: #acb7c3;
+    font-weight: bolder;
+}
+
+/* Connect me buttons top */
+.connect-me-button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.connect-me-button button {
+    margin-right: 10px;
+    border: 3px solid #5c7490;
+    border-radius: 10px;
+}
+
+.connect-me-button button:hover {
+    /* border: 3px solid #f5f5f2; */
+    box-shadow: 0px 0px 20px #f5f5f2;
+}
+
+.connect-me-button img {
+    width: 20px;
+    padding: 4px;
+}
+
+
+/* Intro section */
+#intro-section {
+    margin: 20px 0px;
+    width: 600px;
+    padding: 20px 25px 0px 25px;
+    text-align: justify;
+}
+
+#intro-section:hover {
+    box-shadow: 0px 0px 10px #f5f5f2;
+}
+
+#intro-section p {
+    margin: 20px;
+}
+
+/* All Projects section */
+#project-section {
+    margin-top: 0px;
+    padding: 20px 14px;
+    display: flex;
+    justify-content: space-between;
+    /* box-shadow: 0px 0px 10px #f5f5f2; */
+}
+
+.individual-projects {
+    margin: 0px 10px;
+    padding: 5px 10px;
+}
+
+.individual-projects img {
+    margin: 0px;
+    border: 3px solid #5c7490;
+    border-radius: 12px;
+    width: 200px;
+}
+
+.individual-projects img:hover {
+    border: 3px solid #f5f5f2;
+    box-shadow: 0px 0px 5px #f5f5f2;
+}
+
+.individual-projects h4 {
+    margin: 10px 2px;
+    font-size: large;
+}
+
+.individual-projects p {
+    margin: 5px 0px;
+    color: #f5f5f2;
+    font-size: medium;
+}
+
+
+#footer {
+    margin: 40px 0px;
+    font-size: medium;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+
+
+/* ======================================================================================== */
+/*Project-1 (LINK MANAGER EXTENSION) */
+/* #project-1:hover {
+
+} */
+
+/*Project-2 (COUNTER APP) */
+/* #project-2 {
+
+} */
+
+/*Project-3 (SIMPLE CALCULATOR) */
+/* #project-3 {
+
+} */
+
+/*Project-4 (DIGITAL BUSINESS ID CARD) */
+/* #project-4 {
+
+} */
+
+/*Project-5 (BLACKJACK GAME) */
+/* #project-5 {
+
+} */
